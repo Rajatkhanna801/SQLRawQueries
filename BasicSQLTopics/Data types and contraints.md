@@ -1,5 +1,5 @@
 # Data type
-==> It is 
+==> 
 1. VARCHAR (string, number, special character)
 2. INT (positive negative both)
 3. Date (value can be in any date format)

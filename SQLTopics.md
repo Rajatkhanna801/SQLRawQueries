@@ -17,7 +17,7 @@
 ==> DISTINCT clause 
 ==> order by clause 
 ==> Limit/Top clause (Top will work on Microsoft SQL server)
-9. Inner join
+9. Join and its types
 10. Data storages
 11. Index
 

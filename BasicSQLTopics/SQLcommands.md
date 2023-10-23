@@ -1,4 +1,4 @@
-# SQL commands
+# Types of SQL commands
 1. DDL ==> Data defination language
 ==> create, drop, alter, Truncate
 2. DML ==> Data Manipulation language
@@ -10,9 +10,12 @@
 5. DQL ==> Data Query Language
 ==> SELECT
 
-1. DDL ==> used to define struture of database such as tables, views, functions, etc. create, modify, delete any database objects.
+
+###### Data defination language
+==> used to define struture of database such as tables, views, functions, etc. create, modify, delete any database objects.
 # Query to create student table
 (i) CREATE ==> command to create a table in database
+
 ==> CREATE TABLE STUDENTS
 (
     ID VARCHAR(20) PRIMARY KEY,
@@ -47,7 +50,10 @@ ENGINE = new_engine;
 (iii) Trunacte ==> Remove all data in given table without dropping the table schema.
 ==> TRUNCATE TABLE table_name;
 
-2. DML ==> Command used to modify, delete the database data
+
+###### Data Manipulation Language
+==> Command used to modify, delete the database data
+
 (i) Insert ==> load data into tables
 ==> INSERT INTO table_name (column_name1, column_name2)
     VALUES ('value1', 'value2');
@@ -74,6 +80,7 @@ ENGINE = new_engine;
         INSERT (cust_id, name, age)
         VALUES (S.cust_id, S.name, S.age);
 
-3. DQL (data query language):
-(i) SELECT ==> Used to retreive data from one or more tables
+##### DQL (data query language)
+(i) SELECT 
+==> Used to retreive data from one or more tables
 
