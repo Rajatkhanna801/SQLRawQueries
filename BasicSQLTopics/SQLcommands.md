@@ -11,7 +11,7 @@
 ==> SELECT
 
 
-###### Data defination language
+###### Data defination language (DQL)
 ==> used to define struture of database such as tables, views, functions, etc. create, modify, delete any database objects.
 # Query to create student table
 (i) CREATE ==> command to create a table in database
@@ -51,7 +51,7 @@ ENGINE = new_engine;
 ==> TRUNCATE TABLE table_name;
 
 
-###### Data Manipulation Language
+###### Data Manipulation Language (DML)
 ==> Command used to modify, delete the database data
 
 (i) Insert ==> load data into tables
@@ -84,3 +84,7 @@ ENGINE = new_engine;
 (i) SELECT 
 ==> Used to retreive data from one or more tables
 
+
+# Data Control language (DCL)
+(i) Grant
+(ii) Revoke

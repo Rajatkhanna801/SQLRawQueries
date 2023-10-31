@@ -111,3 +111,9 @@ INNER JOIN customers e2 ON e1.referral_id = e2.customer_id;
 | Alice        | Bob          |
 | Bob          | Charlie      |
 +--------------+--------------+
+
+
+
+SELECT orders.order_id
+from Orders
+Full OUTER Join employee ON order.employee_id == employee.employee_id;
