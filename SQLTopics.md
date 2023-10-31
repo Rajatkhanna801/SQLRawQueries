@@ -22,7 +22,7 @@
 11. Index
 
 # Topics needs to learn (intermediate)
-1. Group by and having clause. 
+1. Group by and having clause.
 2. Aggregate function. (min, max, average, sum and count)
 3. Order of exceution. 
 4. Sub queries. (done)
