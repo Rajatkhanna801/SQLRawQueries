@@ -5,7 +5,6 @@
 1. Security ==> By hiding the query used to generate the view.
 2. Simplify complex SQL queries.
 
-# Uses
 # Rules 
 (i) Data updation is only done if we have view have only one table/view.
 1. Update table data using views
@@ -21,3 +20,13 @@
 (iii) Group by clause
 (iv) WITH clause
 (v) window function
+
+
+# Materialized view
+1. Stores SQL query
+2. The data got from SQL query
+
+
+
+# use of materialized view
+==> where data is not frequently updated or updated in month and data is fetching by mutliple users 
